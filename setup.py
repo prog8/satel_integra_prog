@@ -24,27 +24,27 @@ test_requirements = [
 ]
 
 setup(
-    name='satel_integra',
-    version='0.3.7',
+    name='satel_integra_ext',
+    version='0.4.1',
     description="Communication library and basic testing tool for Satel "
                 "Integra alarm system. Communication via tcpip protocol "
                 "published by SATEL. ",
     long_description_content_type="text/markdown",
-    long_description=readme + '\n\n' + history,    
-    author="Krzysztof Machelski",
-    author_email='krzysztof.machelski+pypi@gmail.com',
-    url='https://github.com/c-soft/satel_integra',
-    packages=find_packages(include=['satel_integra']),
+    long_description=readme + '\n\n' + history,
+    author="Leszek Walerys",
+    author_email='leszek.walerys+pypi@gmail.com',
+    url='https://github.com/leshqo/satel_integra_ext',
+    packages=find_packages(include=['satel_integra_ext']),
     entry_points={
         'console_scripts': [
-            'satel_integra=satel_integra.cli:main'
+            'satel_integra_ext=satel_integra_ext.cli:main'
         ]
     },
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='satel_integra',
+    keywords='satel_integra_ext',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',

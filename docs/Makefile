@@ -85,17 +85,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/satel_integra.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/satel_integra_ext.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/satel_integra.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/satel_integra_ext.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/satel_integra"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/satel_integra"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/satel_integra_ext"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/satel_integra_ext"
 	@echo "# devhelp"
 
 epub:

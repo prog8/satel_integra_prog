@@ -36,3 +36,8 @@ History
 ------------------
 
 * Integrated fix for Python 3.10 compatibility
+
+0.4.0 (2023-10-25)
+------------------
+
+* Syncing Satel commands
