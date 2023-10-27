@@ -22,13 +22,12 @@ Communication library and basic testing tool for Satel Integra alarm system. Com
 
 
 * Free software: MIT license
-* Documentation: https://satel-integra.readthedocs.io.
-
 
 Features
 --------
 
-* TODO
+* all the features from the original `satel_integra` library in version 0.3.7
+* improved communication between module and Satel
 
 Credits
 ---------
