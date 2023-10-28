@@ -41,3 +41,8 @@ History
 ------------------
 
 * Syncing Satel commands
+
+0.4.5 (2023-10-28)
+------------------
+
+* Fixed encoding 0xFE bytes in the message body
