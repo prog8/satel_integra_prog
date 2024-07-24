@@ -12,7 +12,7 @@ To install Satel Integra, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install satel_integra_ext
+    $ pip install satel_integra_prog
 
 This is the preferred method to install Satel Integra, as it will always install the most recent stable release.
 
@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/leshqo/satel_integra_ext
+    $ git clone git://github.com/prog8/satel_integra_prog
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/leshqo/satel_integra_ext/tarball/master
+    $ curl  -OL https://github.com/prog8/satel_integra_prog/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/leshqo/satel_integra_ext
-.. _tarball: https://github.com/leshqo/satel_integra_ext/tarball/master
+.. _Github repo: https://github.com/prog8/satel_integra_prog
+.. _tarball: https://github.com/prog8/satel_integra_prog/tarball/master

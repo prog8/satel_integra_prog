@@ -9,7 +9,7 @@ import pytest
 
 # from satel_integra import cli
 from unittest import TestCase
-from satel_integra_ext.satel_integra import \
+from satel_integra_prog.satel_integra import \
     checksum, generate_query, verify_and_strip
 
 # import unittest
@@ -31,7 +31,7 @@ def test_command_line_interface():
     # runner = CliRunner()
     # result = runner.invoke(cli.main)
     # assert result.exit_code == 0
-    # assert 'satel_integra_ext.cli.main' in result.output
+    # assert 'satel_integra_prog.cli.main' in result.output
     # help_result = runner.invoke(cli.main, ['--help'])
     # assert help_result.exit_code == 0
     #    assert '--help  Show this message and exit.' in help_result.output
